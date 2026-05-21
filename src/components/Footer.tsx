@@ -1,34 +1,36 @@
 import { Link } from "react-router-dom";
-import { MapPin, Mail } from "lucide-react";
+import { MapPin, Mail, Phone, Linkedin, Twitter, Facebook } from "lucide-react";
 import CamuLogo from "@/components/CamuLogo";
 
-const footerLinks = [
-  {
-    title: "Quick Links",
-    links: [
-      { label: "Home", path: "/" },
-      { label: "About", path: "/about" },
-      { label: "Features", path: "/features" },
-      { label: "Responsible AI", path: "/responsible-ai" },
-      { label: "Career Hub", path: "/career-hub" },
-      { label: "Implementation", path: "/implementation" },
-      { label: "Register Interest", path: "/contact" },
-    ],
-  },
+const quickLinks = [
+  { label: "Home", path: "/" },
+  { label: "About", path: "/about" },
+  { label: "Features", path: "/features" },
+  { label: "Responsible AI", path: "/responsible-ai" },
+  { label: "Implementation", path: "/implementation" },
+  { label: "Career Hub", path: "/career-hub" },
+];
+
+const otherLinks = [
+  { label: "Privacy Policy", path: "/privacy-policy" },
+  { label: "Terms of Use", path: "/terms-of-use" },
+  { label: "Register Interest", path: "/contact" },
+  { label: "Contact Us", path: "/contact" },
+  { label: "Support", path: "/contact" },
 ];
 
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background">
       <div className="max-w-7xl mx-auto section-padding">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 mb-16">
           {/* Brand */}
-          <div className="lg:col-span-1">
+          <div>
             <div className="mb-3">
               <CamuLogo textColor="white" iconHeight="h-[40px] md:h-[55px]" />
             </div>
-            <p className="text-sm leading-relaxed opacity-60 max-w-md mb-4">
-              One Platform. Every School. Every Student. Every Story.
+            <p className="text-sm leading-relaxed opacity-60 mb-4">
+              Camu ERP and Career Hub solutions helping institutions, students, and educators create connected learning and career pathways.
             </p>
             <p className="text-xs leading-relaxed opacity-40">
               Implemented & marketed by SRM Technologies Australia Pty Ltd.
@@ -36,25 +38,42 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          {footerLinks.map((group) => (
-            <div key={group.title}>
-              <h4 className="font-sans text-sm font-bold tracking-wide uppercase mb-4 opacity-40">
-                {group.title}
-              </h4>
-              <ul className="space-y-3">
-                {group.links.map((link) => (
-                  <li key={link.path}>
-                    <Link
-                      to={link.path}
-                      className="text-sm opacity-60 hover:opacity-100 hover:text-primary transition-all"
-                    >
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          <div>
+            <h4 className="font-sans text-sm font-bold tracking-wide uppercase mb-4 opacity-40">
+              Quick Links
+            </h4>
+            <ul className="space-y-3">
+              {quickLinks.map((link) => (
+                <li key={link.label}>
+                  <Link
+                    to={link.path}
+                    className="text-sm opacity-60 hover:opacity-100 hover:text-[#f1b000] transition-all"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Other Links */}
+          <div>
+            <h4 className="font-sans text-sm font-bold tracking-wide uppercase mb-4 opacity-40">
+              Other Links
+            </h4>
+            <ul className="space-y-3">
+              {otherLinks.map((link) => (
+                <li key={link.label}>
+                  <Link
+                    to={link.path}
+                    className="text-sm opacity-60 hover:opacity-100 hover:text-[#f1b000] transition-all"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
 
           {/* Contact Info */}
           <div>
@@ -70,12 +89,34 @@ const Footer = () => {
                 </div>
               </li>
               <li>
-                <a href="mailto:info@camuerp.com.au" className="flex items-center gap-3 hover:opacity-100 hover:text-primary transition-all">
+                <a href="mailto:info@camuerp.com.au" className="flex items-center gap-3 hover:opacity-100 hover:text-[#f1b000] transition-all">
                   <Mail className="w-4 h-4 flex-shrink-0 opacity-80" />
                   info@camuerp.com.au
                 </a>
               </li>
+              <li>
+                <a href="tel:+611300000000" className="flex items-center gap-3 hover:opacity-100 hover:text-[#f1b000] transition-all">
+                  <Phone className="w-4 h-4 flex-shrink-0 opacity-80" />
+                  +61 1300 000 000
+                </a>
+              </li>
             </ul>
+            <div className="flex gap-3 mt-5">
+              {[
+                { Icon: Linkedin, href: "#", label: "LinkedIn" },
+                { Icon: Twitter, href: "#", label: "Twitter" },
+                { Icon: Facebook, href: "#", label: "Facebook" },
+              ].map(({ Icon, href, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  aria-label={label}
+                  className="w-9 h-9 rounded-full border border-background/15 flex items-center justify-center opacity-60 hover:opacity-100 hover:text-[#f1b000] hover:border-[#f1b000] transition-all"
+                >
+                  <Icon className="w-4 h-4" />
+                </a>
+              ))}
+            </div>
           </div>
         </div>
 
@@ -84,8 +125,8 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} SRM Technologies Australia Pty Ltd. All rights reserved.
           </p>
           <div className="flex gap-6 text-xs opacity-60">
-            <Link to="/privacy-policy" className="hover:opacity-100 hover:text-[hsl(43,100%,53%)] transition-colors duration-300">Privacy Policy</Link>
-            <Link to="/terms-of-use" className="hover:opacity-100 hover:text-[hsl(43,100%,53%)] transition-colors duration-300">Terms of Use</Link>
+            <Link to="/privacy-policy" className="hover:opacity-100 hover:text-[#f1b000] transition-colors duration-300">Privacy Policy</Link>
+            <Link to="/terms-of-use" className="hover:opacity-100 hover:text-[#f1b000] transition-colors duration-300">Terms of Use</Link>
           </div>
         </div>
       </div>
