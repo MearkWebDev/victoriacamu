@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import ResponsibleAI from "./pages/ResponsibleAI";
+import CareerHub from "./pages/CareerHub";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
             <Route path="/about" element={<About />} />
             <Route path="/features" element={<Features />} />
             <Route path="/responsible-ai" element={<ResponsibleAI />} />
+            <Route path="/career-hub" element={<CareerHub />} />
             <Route path="/implementation" element={<Implementation />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy-policy" element={<Privacy />} />
