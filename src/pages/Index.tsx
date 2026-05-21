@@ -19,6 +19,7 @@ import {
   CheckCircle,
 } from "lucide-react";
 import heroHome1 from "@/assets/hero-home-1.jpg";
+import heroCareerHub from "@/assets/hero-career-hub.jpg";
 import isoIcon from "@/assets/certs/iso27001.png";
 import soc2Icon from "@/assets/certs/soc2.png";
 import gdprIcon from "@/assets/certs/gdpr.png";
@@ -203,6 +204,60 @@ const Index = () => {
 
       {/* School Search / Implementation */}
       <SchoolSearch />
+
+      {/* Career Hub Section */}
+      <section className="section-padding bg-card">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <p className="section-label">Career Hub Platform</p>
+              <h2 className="section-title">Connecting Learning to Careers</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                A unified platform connecting students, schools, employers, and career pathways through work experience, placements, and digital career education.
+              </p>
+              <ul className="space-y-3 mb-8">
+                {[
+                  "Work Experience & Industry Placements",
+                  "Career Exploration from Years 7–12",
+                  "Employer & Industry CRM",
+                  "Digital Wallet & Lifelong Portfolio",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-sm text-foreground/80">
+                    <CheckCircle className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <Link to="/career-hub" className="btn-gold">
+                Explore Career Hub <ArrowRight className="ml-2 w-4 h-4" />
+              </Link>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.96 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+              className="relative"
+            >
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
+                <img
+                  src={heroCareerHub}
+                  alt="Students and educators collaborating on career pathways"
+                  className="w-full h-[420px] object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-tr from-foreground/30 via-transparent to-transparent" />
+              </div>
+              <div className="absolute -bottom-6 -left-6 hidden md:block w-32 h-32 rounded-2xl bg-primary/10 -z-10" />
+              <div className="absolute -top-6 -right-6 hidden md:block w-40 h-40 rounded-2xl bg-secondary/10 -z-10" />
+            </motion.div>
+          </div>
+        </div>
+      </section>
 
       {/* Security Section */}
       <section className="section-padding">
