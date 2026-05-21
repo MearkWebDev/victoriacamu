@@ -9,6 +9,7 @@ const navLinks = [
   { label: "About", path: "/about" },
   { label: "Features", path: "/features" },
   { label: "Responsible AI", path: "/responsible-ai" },
+  { label: "Career Hub", path: "/career-hub" },
   { label: "Implementation", path: "/implementation" },
 ];
 
