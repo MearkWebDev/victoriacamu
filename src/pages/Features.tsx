@@ -9,9 +9,9 @@ import {
   DollarSign, Star, ClipboardList, Lock, Landmark, Activity, FileBarChart, Network,
   Clock, Database, Zap, AlertTriangle, Target, Gauge, Layers, Briefcase,
 } from "lucide-react";
-import PageHero from "@/components/PageHero";
 import VideoSection from "@/components/VideoSection";
-import heroFeatures from "@/assets/hero-features.jpg";
+import LightPageHero from "@/components/LightPageHero";
+import heroFeatures from "@/assets/hero-school-erp.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -234,7 +234,7 @@ const Features = () => {
 
   return (
     <>
-      <PageHero
+      <LightPageHero
         label="School ERP"
         title="School ERP — Complete Platform for Modern Institutions"
         description="Everything your school needs in one platform — from student records to payments, from attendance to analytics."
