@@ -41,7 +41,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center mr-5">
           <CamuLogo
             textColor={scrolled ? "black" : "white"}
-            iconHeight="h-[70px] sm:h-[80px] lg:h-[90px]"
+            iconHeight="h-[80px] sm:h-[95px] lg:h-[110px]"
           />
         </Link>
 
