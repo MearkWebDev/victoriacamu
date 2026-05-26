@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { MapPin, Mail, Phone, Linkedin, Twitter, Facebook } from "lucide-react";
-import CamuLogo from "@/components/CamuLogo";
+import ERPLogo from "@/components/ERPLogo";
 
 const quickLinks = [
   { label: "Home", path: "/" },
@@ -27,10 +27,10 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="mb-3">
-              <CamuLogo textColor="white" iconHeight="h-[40px] md:h-[55px]" />
+              <ERPLogo textColor="white" iconHeight="h-[40px] md:h-[55px]" />
             </div>
             <p className="text-sm leading-relaxed opacity-60 mb-4">
-              Camu ERP and Career Hub solutions helping institutions, students, and educators create connected learning and career pathways.
+              School ERP and Career Hub solutions helping institutions, students, and educators create connected learning and career pathways.
             </p>
             <p className="text-xs leading-relaxed opacity-40">
               Implemented & marketed by SRM Technologies Australia Pty Ltd.

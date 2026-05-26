@@ -318,7 +318,7 @@ const Features = () => {
                     <persona.icon className="w-5 h-5" style={{ color: persona.color }} />
                   </div>
                   <div>
-                    <p className="font-bold text-sm">Camu for {persona.label}</p>
+                    <p className="font-bold text-sm">School ERP for {persona.label}</p>
                     <p className="text-xs text-muted-foreground">Key capabilities</p>
                   </div>
                 </div>
@@ -388,7 +388,7 @@ const Features = () => {
       <section className="section-padding bg-card">
         <div className="max-w-7xl mx-auto">
           <p className="section-label">For Teachers</p>
-          <h2 className="section-title mb-12">How Camu Reduces Teacher Workload</h2>
+          <h2 className="section-title mb-12">How School ERP Reduces Teacher Workload</h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {[

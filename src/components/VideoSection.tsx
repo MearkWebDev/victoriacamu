@@ -5,9 +5,9 @@ interface VideoSectionProps {
 }
 
 const VideoSection = ({
-  label = "See Camu in Action",
-  title = "A Quick Look at Camu ERP",
-  subtitle = "Discover how Camu transforms school operations across Australia & New Zealand.",
+  label = "See ERP in Action",
+  title = "A Quick Look at School ERP",
+  subtitle = "Discover how ERP transforms school operations across Australia & New Zealand.",
 }: VideoSectionProps) => {
   return (
     <section className="section-padding">
