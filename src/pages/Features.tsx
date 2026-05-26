@@ -561,12 +561,26 @@ const Features = () => {
 
       <section className="section-padding bg-accent text-center">
         <div className="max-w-2xl mx-auto">
-          <h2 className="section-title mb-4">See All Features in Action</h2>
+          <h2 className="section-title mb-4">From Onboarding to Go-Live — Seamlessly</h2>
           <p className="section-subtitle mx-auto mb-8">
-            Book a demo and we'll walk you through every capability tailored to your school.
+            A structured, phased rollout tailored to your school size — with proven onboarding workflow, implementation methodology, and dedicated hypercare support every step of the way.
           </p>
-          <Link to="/contact" className="btn-gold">
-            Register Interest <ArrowRight className="ml-2 w-4 h-4" />
+          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 mb-10 text-left">
+            {[
+              { size: "Very Small", students: "Below 30", timeline: "2 Weeks" },
+              { size: "Small", students: "Under 200", timeline: "6 Weeks" },
+              { size: "Medium", students: "Under 800", timeline: "9 Weeks" },
+              { size: "Large", students: "Over 800", timeline: "12–16 Weeks" },
+            ].map((plan) => (
+              <div key={plan.size} className="p-4 rounded-xl border border-border bg-background">
+                <p className="font-serif text-base font-bold mb-1">{plan.size} Schools</p>
+                <p className="text-xs text-muted-foreground mb-2">{plan.students} students</p>
+                <p className="font-mono text-lg font-bold text-primary">{plan.timeline}</p>
+              </div>
+            ))}
+          </div>
+          <Link to="/contact" state={{ scrollToForm: true }} className="btn-gold">
+            Register Your School <ArrowRight className="ml-2 w-4 h-4" />
           </Link>
         </div>
       </section>
