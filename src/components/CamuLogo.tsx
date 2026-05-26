@@ -6,8 +6,8 @@ interface CamuLogoProps {
   iconHeight?: string;
 }
 
-// Render the logo at its EXACT original uploaded dimensions (300 x 65).
-// No scaling, no max-height, no aspect-ratio overrides — same size everywhere.
+// Render the logo at EXACTLY 200 x 43 pixels everywhere.
+// No scaling, no max-height, no aspect-ratio overrides — same size for both versions.
 const LOGO_WIDTH = 200;
 const LOGO_HEIGHT = 43;
 
