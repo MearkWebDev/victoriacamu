@@ -6,22 +6,36 @@ interface CamuLogoProps {
   iconHeight?: string;
 }
 
-const CamuLogo = ({ textColor = "white", iconHeight = "h-[60px]" }: CamuLogoProps) => {
+// Render the logo at its EXACT original uploaded dimensions (300 x 65).
+// No scaling, no max-height, no aspect-ratio overrides — same size everywhere.
+const LOGO_WIDTH = 300;
+const LOGO_HEIGHT = 65;
+
+const CamuLogo = ({ textColor = "white" }: CamuLogoProps) => {
   return (
-    <div className={`relative ${iconHeight}`} style={{ aspectRatio: "3 / 1" }}>
+    <div
+      className="relative"
+      style={{ width: LOGO_WIDTH, height: LOGO_HEIGHT }}
+    >
       <img
         src={srmWhite}
         alt="SRM Tech"
-        className={`absolute inset-0 h-full w-auto object-contain transition-opacity duration-500 ${
+        width={LOGO_WIDTH}
+        height={LOGO_HEIGHT}
+        className={`absolute inset-0 transition-opacity duration-500 ${
           textColor === "white" ? "opacity-100" : "opacity-0"
         }`}
+        style={{ width: LOGO_WIDTH, height: LOGO_HEIGHT }}
       />
       <img
         src={srmColor}
         alt="SRM Tech"
-        className={`absolute inset-0 h-full w-auto object-contain transition-opacity duration-500 ${
+        width={LOGO_WIDTH}
+        height={LOGO_HEIGHT}
+        className={`absolute inset-0 object-contain transition-opacity duration-500 ${
           textColor === "white" ? "opacity-0" : "opacity-100"
         }`}
+        style={{ width: LOGO_WIDTH, height: LOGO_HEIGHT }}
       />
     </div>
   );
