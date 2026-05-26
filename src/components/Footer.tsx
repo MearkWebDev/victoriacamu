@@ -13,6 +13,7 @@ const quickLinks = [
 const otherLinks = [
   { label: "Privacy Policy", path: "/privacy-policy" },
   { label: "Terms of Use", path: "/terms-of-use" },
+  { label: "Implementation", path: "/implementation" },
   { label: "Register Interest", path: "/contact" },
   { label: "Contact Us", path: "/contact" },
   { label: "Support", path: "/contact" },

@@ -559,30 +559,32 @@ const Features = () => {
         </div>
       </section>
 
-      <section className="section-padding bg-accent text-center">
-        <div className="max-w-2xl mx-auto">
-          <h2 className="section-title mb-4">From Onboarding to Go-Live — Seamlessly</h2>
-          <p className="section-subtitle mx-auto mb-8">
-            A structured, phased rollout tailored to your school size — with proven onboarding workflow, implementation methodology, and dedicated hypercare support every step of the way.
-          </p>
-          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 mb-10 text-left">
-            {[
-              { size: "Very Small", students: "Below 30", timeline: "2 Weeks" },
-              { size: "Small", students: "Under 200", timeline: "6 Weeks" },
-              { size: "Medium", students: "Under 800", timeline: "9 Weeks" },
-              { size: "Large", students: "Over 800", timeline: "12–16 Weeks" },
-            ].map((plan) => (
-              <div key={plan.size} className="p-4 rounded-xl border border-border bg-background">
-                <p className="font-serif text-base font-bold mb-1">{plan.size} Schools</p>
-                <p className="text-xs text-muted-foreground mb-2">{plan.students} students</p>
-                <p className="font-mono text-lg font-bold text-primary">{plan.timeline}</p>
-              </div>
-            ))}
-          </div>
-          <Link to="/contact" state={{ scrollToForm: true }} className="btn-gold">
-            Register Your School <ArrowRight className="ml-2 w-4 h-4" />
-          </Link>
+      {/* ── CTA ── */}
+      <section className="section-padding relative overflow-hidden"
+        style={{ background: "linear-gradient(135deg, hsl(var(--navy)) 0%, hsl(215, 45%, 22%) 100%)" }}
+      >
+        <div className="max-w-3xl mx-auto text-center relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="font-serif text-3xl md:text-4xl font-bold text-white mb-4">
+              Ready for a Smooth ERP Implementation?
+            </h2>
+            <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
+              Explore implementation timelines, onboarding processes, and support designed for schools of every size.
+            </p>
+            <Link to="/implementation" className="inline-flex items-center gap-2 bg-[#f1b000] text-[#0a1f44] px-8 py-4 rounded-full font-bold text-base hover:bg-[#d9a000] transition-colors shadow-lg hover:shadow-xl hover:-translate-y-0.5 duration-300">
+              Go to Implementation <ArrowRight className="w-5 h-5" />
+            </Link>
+          </motion.div>
         </div>
+
+        {/* Decorative background elements */}
+        <div className="absolute top-0 left-0 w-96 h-96 rounded-full bg-white/5 blur-3xl -translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute bottom-0 right-0 w-80 h-80 rounded-full bg-[#f1b000]/5 blur-3xl translate-x-1/3 translate-y-1/3" />
       </section>
     </>
   );
