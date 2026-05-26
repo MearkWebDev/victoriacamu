@@ -22,7 +22,7 @@ const CamuLogo = ({ textColor = "white" }: CamuLogoProps) => {
         alt="SRM Tech"
         width={LOGO_WIDTH}
         height={LOGO_HEIGHT}
-        className={`absolute inset-0 transition-opacity duration-500 ${
+        className={`absolute inset-0 object-contain transition-opacity duration-500 ${
           textColor === "white" ? "opacity-100" : "opacity-0"
         }`}
         style={{ width: LOGO_WIDTH, height: LOGO_HEIGHT }}
