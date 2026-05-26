@@ -9,19 +9,27 @@ interface LightPageHeroProps {
 
 const LightPageHero = ({ label, title, description, image }: LightPageHeroProps) => {
   return (
-    <section className="relative min-h-[520px] md:min-h-[580px] flex items-center overflow-hidden bg-background">
-      {/* Right-aligned image */}
-      <motion.img
-        src={image}
-        alt=""
-        loading="eager"
-        initial={{ scale: 1.05, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 1.6, ease: "easeOut" }}
-        className="absolute inset-0 w-full h-full object-cover object-center"
-      />
-      {/* Subtle dark gradient on the left only for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-foreground/70 via-foreground/30 to-transparent" />
+    <section className="relative min-h-[520px] md:min-h-[580px] flex items-center overflow-hidden">
+      {/* Background image with the same overlay treatment as Career Hub hero */}
+      <div className="absolute inset-0">
+        <motion.img
+          src={image}
+          alt=""
+          loading="eager"
+          initial={{ scale: 1.05 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-foreground/70" />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(135deg, hsl(var(--navy) / 0.6) 0%, transparent 60%), radial-gradient(ellipse at 70% 30%, hsl(var(--teal) / 0.12) 0%, transparent 50%)",
+          }}
+        />
+      </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 pt-36 pb-16 w-full">
         <motion.div
