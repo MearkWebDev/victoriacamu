@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { MapPin, Mail, Phone, Linkedin, Twitter, Facebook } from "lucide-react";
-import ERPLogo from "@/components/CamuLogo";
+import CamuLogo from "@/components/CamuLogo";
 
 const quickLinks = [
   { label: "Home", path: "/" },

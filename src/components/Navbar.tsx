@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import ERPLogo from "@/components/CamuLogo";
+import CamuLogo from "@/components/CamuLogo";
 
 const navLinks = [
   { label: "Home", path: "/" },
