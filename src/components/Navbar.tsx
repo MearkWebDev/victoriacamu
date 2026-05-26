@@ -39,10 +39,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 py-2">
         {/* Logo */}
         <Link to="/" className="flex items-center mr-5">
-          <CamuLogo
-            textColor={scrolled ? "black" : "white"}
-            iconHeight="h-[80px] sm:h-[95px] lg:h-[110px]"
-          />
+          <CamuLogo textColor={scrolled ? "black" : "white"} />
         </Link>
 
         {/* Desktop Nav */}
