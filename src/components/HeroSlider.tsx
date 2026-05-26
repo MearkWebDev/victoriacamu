@@ -24,12 +24,12 @@ const slides = [
     image: heroHome1,
   },
   {
-    label: "Problem & Solution",
-    heading: "Still Using Multiple School Systems?",
+    label: "Career Hub",
+    heading: "Career Hub for Future-Ready Learning",
     description:
-      "Replace disconnected tools with one integrated ERP platform designed for modern schools. One login. One source of truth. Zero fragmentation.",
+      "Connect students, schools, employers, and career pathways through one unified career education and work experience platform.",
     ctas: [
-      { label: "Explore Features", path: "/features", primary: true },
+      { label: "Explore Career Hub", path: "/career-hub", primary: true },
     ],
     stats: [
       { num: "90%", label: "Time Saved on Attendance" },
