@@ -6,8 +6,8 @@ interface CamuLogoProps {
   iconHeight?: string;
 }
 
-// Render the logo at its EXACT original uploaded dimensions (300 x 65).
-// No scaling, no max-height, no aspect-ratio overrides — same size everywhere.
+// Render the logo at EXACTLY 200 x 43 pixels everywhere.
+// No scaling, no max-height, no aspect-ratio overrides — same size for both versions.
 const LOGO_WIDTH = 200;
 const LOGO_HEIGHT = 43;
 
@@ -22,7 +22,7 @@ const CamuLogo = ({ textColor = "white" }: CamuLogoProps) => {
         alt="SRM Tech"
         width={LOGO_WIDTH}
         height={LOGO_HEIGHT}
-        className={`absolute inset-0 transition-opacity duration-500 ${
+        className={`absolute inset-0 object-contain transition-opacity duration-500 ${
           textColor === "white" ? "opacity-100" : "opacity-0"
         }`}
         style={{ width: LOGO_WIDTH, height: LOGO_HEIGHT }}
