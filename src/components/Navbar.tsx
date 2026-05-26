@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import ERPLogo from "@/components/ERPLogo";
+import ERPLogo from "@/components/CamuLogo";
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 py-2">
         {/* Logo */}
         <Link to="/" className="flex items-center mr-5">
-          <ERPLogo
+          <CamuLogo
             textColor={scrolled ? "black" : "white"}
             iconHeight="h-[40px] sm:h-[45px] lg:h-[55px]"
           />
