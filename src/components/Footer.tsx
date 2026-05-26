@@ -5,9 +5,8 @@ import ERPLogo from "@/components/ERPLogo";
 const quickLinks = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
-  { label: "Features", path: "/features" },
+  { label: "School ERP", path: "/features" },
   { label: "Responsible AI", path: "/responsible-ai" },
-  { label: "Implementation", path: "/implementation" },
   { label: "Career Hub", path: "/career-hub" },
 ];
 

@@ -1,4 +1,5 @@
-import camuIcon from "@/assets/camu-icon.png";
+import srmColor from "@/assets/srm-logo-color.png";
+import srmWhite from "@/assets/srm-logo-white.png";
 
 interface CamuLogoProps {
   textColor?: "white" | "black";
@@ -7,19 +8,21 @@ interface CamuLogoProps {
 
 const CamuLogo = ({ textColor = "white", iconHeight = "h-[60px]" }: CamuLogoProps) => {
   return (
-    <div className="flex items-center gap-0">
+    <div className={`relative ${iconHeight}`} style={{ aspectRatio: "3 / 1" }}>
       <img
-        src={camuIcon}
-        alt="CamU"
-        className={`${iconHeight} w-auto object-contain`}
-      />
-      <span
-        className={`font-sans text-[1.6em] font-semibold tracking-tight transition-colors duration-500 ${
-          textColor === "white" ? "text-white" : "text-foreground"
+        src={srmWhite}
+        alt="SRM Tech"
+        className={`absolute inset-0 h-full w-auto object-contain transition-opacity duration-500 ${
+          textColor === "white" ? "opacity-100" : "opacity-0"
         }`}
-      >
-        CamU
-      </span>
+      />
+      <img
+        src={srmColor}
+        alt="SRM Tech"
+        className={`absolute inset-0 h-full w-auto object-contain transition-opacity duration-500 ${
+          textColor === "white" ? "opacity-0" : "opacity-100"
+        }`}
+      />
     </div>
   );
 };

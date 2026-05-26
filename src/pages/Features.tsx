@@ -235,8 +235,8 @@ const Features = () => {
   return (
     <>
       <PageHero
-        label="Capabilities"
-        title="Complete School ERP Features for Modern Institutions"
+        label="School ERP"
+        title="School ERP — Complete Platform for Modern Institutions"
         description="Everything your school needs in one platform — from student records to payments, from attendance to analytics."
         image={heroFeatures}
       />
