@@ -5,8 +5,8 @@ import {
   CheckCircle, XCircle, Database, Cpu, ClipboardList, UserCheck,
   FileText, GraduationCap, Sparkles, AlertTriangle,
 } from "lucide-react";
-import PageHero from "@/components/PageHero";
-import heroAbout from "@/assets/hero-about.jpg";
+import LightPageHero from "@/components/LightPageHero";
+import heroAi from "@/assets/hero-responsible-ai.jpg";
 
 const principles = [
   { icon: UserCheck, title: "Human Oversight", desc: "Teachers remain in control. AI suggests, humans decide. Every consequential output is reviewed by a qualified educator." },
@@ -55,11 +55,11 @@ const layers = [
 const ResponsibleAI = () => {
   return (
     <>
-      <PageHero
+      <LightPageHero
         label="Responsible AI"
         title="Human-led, AI-assisted, Policy-compliant, Privacy-first"
         description="ERP's approach to AI in schools is anchored in the Australian Framework for Generative AI in Schools — built compliant by design, never AI-first by default."
-        image={heroAbout}
+        image={heroAi}
       />
 
       {/* Introduction */}
