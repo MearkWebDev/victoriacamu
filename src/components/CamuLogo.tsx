@@ -8,8 +8,8 @@ interface CamuLogoProps {
 
 // Render the logo at its EXACT original uploaded dimensions (300 x 65).
 // No scaling, no max-height, no aspect-ratio overrides — same size everywhere.
-const LOGO_WIDTH = 300;
-const LOGO_HEIGHT = 65;
+const LOGO_WIDTH = 250;
+const LOGO_HEIGHT = 54;
 
 const CamuLogo = ({ textColor = "white" }: CamuLogoProps) => {
   return (
