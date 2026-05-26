@@ -13,7 +13,7 @@ const slides = [
     description:
       "School ERP connects students, parents, teachers, and administrators into one powerful ecosystem — reducing overhead and amplifying what matters most: learning.",
     ctas: [
-      { label: "Register Your School", path: "/contact", primary: true },
+      { label: "Explore School ERP", path: "/features", primary: true },
       { label: "Watch Demo", path: "#demo", primary: false },
     ],
     stats: [
