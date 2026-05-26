@@ -32,7 +32,7 @@ const Security = () => {
       <PageHero
         label="Security & Compliance"
         title="Enterprise-Level Security & Compliance for Schools"
-        description="Camu ERP meets the highest international security and compliance standards — hosted entirely within Australia."
+        description="School ERP meets the highest international security and compliance standards — hosted entirely within Australia."
         image={heroSecurity}
       />
 

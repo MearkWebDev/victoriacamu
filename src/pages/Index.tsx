@@ -100,10 +100,10 @@ const Index = () => {
               <p className="section-label">Who We Are</p>
               <h2 className="section-title">The Operating System for ANZ Education</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Camu ERP is a fully integrated school management platform that connects every student, parent, teacher, and administrator in one seamlessly connected ecosystem.
+                School ERP is a fully integrated school management platform that connects every student, parent, teacher, and administrator in one seamlessly connected ecosystem.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Implemented and marketed by SRM Technologies Australia, Camu is listed on the Victorian Department of Education School Software Panel (SSP001) across all four procurement categories.
+                Implemented and marketed by SRM Technologies Australia, Our platform is listed on the Victorian Department of Education School Software Panel (SSP001) across all four procurement categories.
               </p>
               <Link to="/about" className="btn-gold">
                 Learn More About Us <ArrowRight className="ml-2 w-4 h-4" />
@@ -131,7 +131,7 @@ const Index = () => {
           <p className="section-label">Platform Capabilities</p>
           <h2 className="section-title">One Platform. Every Function.</h2>
           <p className="section-subtitle mb-12">
-            Camu replaces disconnected school systems with a single, integrated ERP platform.
+            School ERP replaces disconnected school systems with a single, integrated ERP platform.
           </p>
 
           <motion.div
@@ -173,7 +173,7 @@ const Index = () => {
           <p className="section-label">Who Benefits</p>
           <h2 className="section-title">Built for Every Role in Your School</h2>
           <p className="section-subtitle mb-12">
-            Camu ERP speaks the language of every person in your school community.
+            School ERP speaks the language of every person in your school community.
           </p>
 
           <motion.div
@@ -302,7 +302,7 @@ const Index = () => {
             Ready to Transform Your School?
           </h2>
           <p className="text-base mb-8" style={{ color: "hsl(0 0% 100% / 0.6)" }}>
-            Join schools across Australia and New Zealand already using Camu ERP to streamline operations and improve engagement.
+            Join schools across Australia and New Zealand already using School ERP to streamline operations and improve engagement.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <Link to="/contact" state={{ scrollToForm: true }} className="btn-gold">

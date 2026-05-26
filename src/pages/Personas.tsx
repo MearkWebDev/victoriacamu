@@ -132,7 +132,7 @@ const Personas = () => {
       <PageHero
         label="Who Benefits"
         title="Built for Every Role in Your School"
-        description="Camu ERP speaks the language of every person in your school community."
+        description="School ERP speaks the language of every person in your school community."
         image={heroPersonas}
       />
 
@@ -209,7 +209,7 @@ const Personas = () => {
                     <persona.icon className="w-5 h-5" style={{ color: persona.color }} />
                   </div>
                   <div>
-                    <p className="font-bold text-sm">Camu for {persona.label}</p>
+                    <p className="font-bold text-sm">School ERP for {persona.label}</p>
                     <p className="text-xs text-muted-foreground">Key capabilities</p>
                   </div>
                 </div>
@@ -237,7 +237,7 @@ const Personas = () => {
         <div className="max-w-2xl mx-auto">
           <h2 className="section-title mb-4">Find Your Role's Solution</h2>
           <p className="section-subtitle mx-auto mb-8">
-            See how Camu transforms operations for your specific role in the school.
+            See how ERP transforms operations for your specific role in the school.
           </p>
           <Link to="/contact" className="btn-gold">
             Register Interest <ArrowRight className="ml-2 w-4 h-4" />

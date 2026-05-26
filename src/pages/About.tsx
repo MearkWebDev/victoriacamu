@@ -34,11 +34,11 @@ const corePartners = [
     highlights: ["EdTech Solutions Provider", "Managed IT Services", "Digital Transformation"],
   },
   {
-    name: "Camu",
+    name: "ERP",
     logo: camuLogo,
     role: "Core Technology Platform",
     description:
-      "Camu is a powerful cloud-based ERP platform purpose-built to transform the learning experience across education institutions worldwide — serving 550+ institutions across 12 countries with a user base exceeding 1 million students. The platform encompasses Learning Management, Outcome Based Education, Virtual Classrooms, and cutting-edge AI capabilities.",
+      "Our platform is a powerful cloud-based ERP platform purpose-built to transform the learning experience across education institutions worldwide — serving 550+ institutions across 12 countries with a user base exceeding 1 million students. The platform encompasses Learning Management, Outcome Based Education, Virtual Classrooms, and cutting-edge AI capabilities.",
     highlights: ["550+ Institutions", "12 Countries", "1M+ Students"],
   },
   {
@@ -75,26 +75,26 @@ const About = () => {
     <>
       <PageHero
         label="About Us"
-        title="About Camu ERP — Campus + You"
-        description="Camu is where Campus meets You. A fully integrated school ERP platform connecting every stakeholder in one ecosystem."
+        title="About School ERP — Campus + You"
+        description="Our platform is where Campus meets You. A fully integrated school ERP platform connecting every stakeholder in one ecosystem."
         image={heroAbout}
       />
 
-      {/* What is Camu */}
+      {/* What is ERP */}
       <section className="section-padding">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <motion.div variants={slideInLeft} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-              <p className="section-label">What is Camu ERP</p>
+              <p className="section-label">What is School ERP</p>
               <h2 className="section-title">The Operating System for ANZ Education</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Camu ERP is a fully integrated school management platform that connects every student, parent, teacher, administrator, and education authority in one seamlessly connected ecosystem — reducing administrative overhead and amplifying what matters most: learning.
+                School ERP is a fully integrated school management platform that connects every student, parent, teacher, administrator, and education authority in one seamlessly connected ecosystem — reducing administrative overhead and amplifying what matters most: learning.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                <strong className="text-foreground">Camu ERP is implemented and marketed by SRM Technologies Australia Pty Ltd.</strong> With deep expertise in education technology, SRM Technologies brings enterprise-level solutions to schools across Australia and New Zealand.
+                <strong className="text-foreground">School ERP is implemented and marketed by SRM Technologies Australia Pty Ltd.</strong> With deep expertise in education technology, SRM Technologies brings enterprise-level solutions to schools across Australia and New Zealand.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Camu is listed on the Victorian Department of Education School Software Panel (SSP001) across all four procurement categories — enabling streamlined, pre-approved procurement for government schools.
+                Our platform is listed on the Victorian Department of Education School Software Panel (SSP001) across all four procurement categories — enabling streamlined, pre-approved procurement for government schools.
               </p>
             </motion.div>
             <motion.div variants={slideInRight} initial="hidden" whileInView="visible" viewport={{ once: true }} className="grid grid-cols-2 gap-4">
@@ -153,10 +153,10 @@ const About = () => {
         </div>
       </section>
 
-      {/* Why Choose Camu */}
+      {/* Why Choose ERP */}
       <section className="section-padding">
         <div className="max-w-4xl mx-auto">
-          <p className="section-label">Why Choose Camu</p>
+          <p className="section-label">Why Choose ERP</p>
           <h2 className="section-title mb-10">Built Different. Built for Schools.</h2>
           <div className="space-y-4">
             {[
@@ -271,7 +271,7 @@ const About = () => {
       {/* CTA */}
       <section className="section-padding bg-accent text-center">
         <div className="max-w-2xl mx-auto">
-          <h2 className="section-title mb-4">See Camu in Action</h2>
+          <h2 className="section-title mb-4">See ERP in Action</h2>
           <p className="section-subtitle mx-auto mb-8">
             Register your interest and our team will build a tailored proposal within 2 business days.
           </p>

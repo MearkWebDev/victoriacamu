@@ -11,7 +11,7 @@ const slides = [
     label: "Platform Overview",
     heading: "School ERP Software for Australia & New Zealand",
     description:
-      "Camu ERP connects students, parents, teachers, and administrators into one powerful ecosystem — reducing overhead and amplifying what matters most: learning.",
+      "School ERP connects students, parents, teachers, and administrators into one powerful ecosystem — reducing overhead and amplifying what matters most: learning.",
     ctas: [
       { label: "Register Your School", path: "/contact", primary: true },
       { label: "Watch Demo", path: "#demo", primary: false },
