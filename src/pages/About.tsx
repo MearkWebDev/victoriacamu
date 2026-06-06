@@ -5,9 +5,11 @@ import PageHero from "@/components/PageHero";
 import heroAbout from "@/assets/hero-about.jpg";
 import srmLogo from "@/assets/partners/srm.png";
 import camuLogo from "@/assets/partners/camu.jpeg";
-import leadsquaredLogo from "@/assets/partners/leadsquared.webp";
+import merittoLogoAsset from "@/assets/partners/meritto.png.asset.json";
 import crystalDeltaLogo from "@/assets/partners/crystal_delta.png";
 import genixLogo from "@/assets/partners/genix.png";
+
+const merittoLogo = merittoLogoAsset.url;
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -34,20 +36,27 @@ const corePartners = [
     highlights: ["EdTech Solutions Provider", "Managed IT Services", "Digital Transformation"],
   },
   {
-    name: "ERP",
+    name: "Octoze Technologies",
     logo: camuLogo,
-    role: "Core Technology Platform",
+    role: "Technology Development Partner",
     description:
-      "Our platform is a powerful cloud-based ERP platform purpose-built to transform the learning experience across education institutions worldwide — serving 550+ institutions across 12 countries with a user base exceeding 1 million students. The platform encompasses Learning Management, Outcome Based Education, Virtual Classrooms, and cutting-edge AI capabilities.",
+      "Octoze Technologies is the core technology development partner powering our Unified School Management System — purpose-built to transform the learning experience across education institutions worldwide. Serving 550+ institutions across 12 countries with a user base exceeding 1 million students, the platform encompasses Learning Management, Outcome Based Education, Virtual Classrooms, and cutting-edge AI capabilities.",
     highlights: ["550+ Institutions", "12 Countries", "1M+ Students"],
   },
   {
-    name: "LeadSquared",
-    logo: leadsquaredLogo,
-    role: "CRM & Marketing Automation",
+    name: "Meritto",
+    logo: merittoLogo,
+    role: "Admissions CRM Partner",
     description:
-      "LeadSquared empowers organizations to deliver personalised customer interactions at scale. An end-to-end digital engagement platform helping businesses build connected experiences — serving 2,000+ businesses across 40+ countries with 250,000+ users. The platform is GDPR, HIPAA & ISO 27001 compliant.",
-    highlights: ["2,000+ Businesses", "40+ Countries", "Omnichannel CRM"],
+      "Meritto is a leading education-focused CRM and admissions automation platform helping institutions streamline student recruitment, admissions engagement, lead nurturing, enquiry management, application workflows, and enrolment conversion through data-driven automation and communication tools.",
+    highlights: [
+      "Student Recruitment Automation",
+      "Admissions Workflow Management",
+      "1200+ Institutions",
+      "Omnichannel Communication",
+      "Application Conversion Analytics",
+      "Higher Ed & K-12 Expertise",
+    ],
   },
 ];
 

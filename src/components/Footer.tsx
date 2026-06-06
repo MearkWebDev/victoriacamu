@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MapPin, Mail, Phone, Linkedin, Twitter, Facebook } from "lucide-react";
+import { MapPin, Mail, Phone, Hash, Building2, Linkedin, Twitter, Facebook } from "lucide-react";
 import CamuLogo from "@/components/CamuLogo";
 
 const quickLinks = [
@@ -30,7 +30,7 @@ const Footer = () => {
               <CamuLogo textColor="white" />
             </div>
             <p className="text-sm leading-relaxed opacity-60 mb-4">
-              Unified School Management System and Career Hub solutions helping institutions, students, and educators create connected learning and career pathways.
+              USMS and Career Hub solutions helping institutions, students, and educators create connected learning and career pathways.
             </p>
             <p className="text-xs leading-relaxed opacity-40">
               Implemented & marketed by SRM Technologies Australia Pty Ltd.
@@ -82,22 +82,30 @@ const Footer = () => {
             </h4>
             <ul className="space-y-4 text-sm opacity-60">
               <li className="flex items-start gap-3">
+                <Building2 className="w-4 h-4 flex-shrink-0 mt-0.5 opacity-80" />
+                <div>
+                  <p className="whitespace-nowrap">SRM TECHNOLOGIES AUSTRALIA PTY LTD</p>
+                  <p className="text-xs opacity-80 mt-1">ABN 62 690 273 593 · ACN 690 273 593</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5 opacity-80" />
                 <div>
-                  <p>SRM Technologies Australia Pty Ltd</p>
-                  <p>Melbourne, Victoria, Australia</p>
+                  <p>Level 14, 440 Collins Street,</p>
+                  <p>Melbourne VIC,</p>
+                  <p>Australia</p>
                 </div>
               </li>
               <li>
-                <a href="mailto:info@camuerp.com.au" className="flex items-center gap-3 hover:opacity-100 hover:text-[#f1b000] transition-all">
+                <a href="mailto:info@srmtechnologies.com.au" className="flex items-center gap-3 hover:opacity-100 hover:text-[#f1b000] transition-all">
                   <Mail className="w-4 h-4 flex-shrink-0 opacity-80" />
-                  info@camuerp.com.au
+                  info@srmtechnologies.com.au
                 </a>
               </li>
               <li>
-                <a href="tel:+611300000000" className="flex items-center gap-3 hover:opacity-100 hover:text-[#f1b000] transition-all">
+                <a href="tel:+61489996983" className="flex items-center gap-3 hover:opacity-100 hover:text-[#f1b000] transition-all">
                   <Phone className="w-4 h-4 flex-shrink-0 opacity-80" />
-                  +61 1300 000 000
+                  +61 489 996 983
                 </a>
               </li>
             </ul>

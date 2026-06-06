@@ -121,31 +121,48 @@ const Contact = () => {
         image={heroContact}
       />
         <section className="section-padding bg-card">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <p className="section-label">Get in Touch</p>
             <h2 className="section-title mb-8">Contact Information</h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="card-premium text-center">
-                <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center mb-4 mx-auto">
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div className="card-premium">
+                <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center mb-4">
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-serif text-lg font-bold mb-2">Our Office</h3>
-                <p className="text-sm text-muted-foreground">SRM Technologies Australia Pty Ltd</p>
-                <p className="text-sm text-muted-foreground">Melbourne, Victoria, Australia</p>
+                <h3 className="font-serif text-lg font-bold mb-2">Registered Address</h3>
+                <p className="text-sm text-muted-foreground">Level 14, 440 Collins Street,</p>
+                <p className="text-sm text-muted-foreground">Melbourne VIC,</p>
+                <p className="text-sm text-muted-foreground">Australia</p>
               </div>
-              <div className="card-premium text-center">
-                <div className="w-12 h-12 rounded-xl bg-teal-light flex items-center justify-center mb-4 mx-auto">
+              <div className="card-premium">
+                <div className="w-12 h-12 rounded-xl bg-teal-light flex items-center justify-center mb-4">
+                  <MapPin className="w-6 h-6 text-secondary" />
+                </div>
+                <h3 className="font-serif text-lg font-bold mb-2">Postal Address</h3>
+                <p className="text-sm text-muted-foreground">Locked Bag 777 Collins Street</p>
+                <p className="text-sm text-muted-foreground">West Post Office</p>
+                <p className="text-sm text-muted-foreground">VIC 8007</p>
+                <p className="text-sm text-muted-foreground">Australia</p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="card-premium">
+                <div className="w-12 h-12 rounded-xl bg-teal-light flex items-center justify-center mb-4">
                   <Mail className="w-6 h-6 text-secondary" />
                 </div>
-                <h3 className="font-serif text-lg font-bold mb-2">Email Us</h3>
-                <a href="mailto:info@camuerp.com.au" className="text-sm text-primary hover:underline">info@camuerp.com.au</a>
+                <h3 className="font-serif text-lg font-bold mb-2">Email</h3>
+                <a href="mailto:info@srmtechnologies.com.au" className="text-sm text-primary hover:underline">
+                  info@srmtechnologies.com.au
+                </a>
               </div>
-              <div className="card-premium text-center">
-                <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center mb-4 mx-auto">
+              <div className="card-premium">
+                <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center mb-4">
                   <Phone className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-serif text-lg font-bold mb-2">Response Time</h3>
-                <p className="text-sm text-muted-foreground">Tailored proposal within 2 business days</p>
+                <h3 className="font-serif text-lg font-bold mb-2">Phone</h3>
+                <a href="tel:+61489996983" className="text-sm text-primary hover:underline">
+                  +61 489 996 983
+                </a>
               </div>
             </div>
           </div>
