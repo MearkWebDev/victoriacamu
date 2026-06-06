@@ -11,7 +11,8 @@ import {
 } from "lucide-react";
 import VideoSection from "@/components/VideoSection";
 import LightPageHero from "@/components/LightPageHero";
-import heroFeatures from "@/assets/hero-school-erp.jpg";
+import heroFeaturesAsset from "@/assets/hero-usms.png.asset.json";
+const heroFeatures = heroFeaturesAsset.url;
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -235,8 +236,8 @@ const Features = () => {
   return (
     <>
       <LightPageHero
-        label="School ERP"
-        title="School ERP — Complete Platform for Modern Institutions"
+        label="Unified School Management System"
+        title="Unified School Management System — Complete Platform for Modern Institutions"
         description="Everything your school needs in one platform — from student records to payments, from attendance to analytics."
         image={heroFeatures}
       />
@@ -318,7 +319,7 @@ const Features = () => {
                     <persona.icon className="w-5 h-5" style={{ color: persona.color }} />
                   </div>
                   <div>
-                    <p className="font-bold text-sm">School ERP for {persona.label}</p>
+                    <p className="font-bold text-sm">USMS for {persona.label}</p>
                     <p className="text-xs text-muted-foreground">Key capabilities</p>
                   </div>
                 </div>
@@ -388,7 +389,7 @@ const Features = () => {
       <section className="section-padding bg-card">
         <div className="max-w-7xl mx-auto">
           <p className="section-label">For Teachers</p>
-          <h2 className="section-title mb-12">How School ERP Reduces Teacher Workload</h2>
+          <h2 className="section-title mb-12">How Unified School Management System Reduces Teacher Workload</h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {[
@@ -571,7 +572,7 @@ const Features = () => {
             viewport={{ once: true }}
           >
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-white mb-4">
-              Ready for a Smooth ERP Implementation?
+              Ready for a Smooth USMS Implementation?
             </h2>
             <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
               Explore implementation timelines, onboarding processes, and support designed for schools of every size.

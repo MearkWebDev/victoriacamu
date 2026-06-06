@@ -6,14 +6,14 @@ import heroBlog from "@/assets/hero-blog.jpg";
 
 const articles = [
   {
-    title: "Why Schools Need ERP Software in 2025",
-    excerpt: "Discover why modern schools are moving from disconnected systems to integrated ERP platforms — and how it impacts student outcomes.",
+    title: "Why Schools Need USMS Software in 2025",
+    excerpt: "Discover why modern schools are moving from disconnected systems to integrated USMS platforms — and how it impacts student outcomes.",
     category: "Industry Insights",
     readTime: "5 min read",
   },
   {
-    title: "Benefits of School ERP: A Complete Guide",
-    excerpt: "From reduced admin time to better parent engagement, explore the measurable benefits of implementing a school ERP system.",
+    title: "Benefits of Unified School Management System: A Complete Guide",
+    excerpt: "From reduced admin time to better parent engagement, explore the measurable benefits of implementing a USMS.",
     category: "Guides",
     readTime: "7 min read",
   },
@@ -31,7 +31,7 @@ const articles = [
   },
   {
     title: "School Data Security: What Parents Should Know",
-    excerpt: "An overview of how modern school ERP systems protect student data with enterprise-grade security and Australian-hosted infrastructure.",
+    excerpt: "An overview of how modern USMSs protect student data with enterprise-grade security and Australian-hosted infrastructure.",
     category: "Security",
     readTime: "5 min read",
   },
@@ -85,7 +85,7 @@ const Blog = () => {
         <div className="max-w-2xl mx-auto">
           <h2 className="section-title mb-4">Stay Updated</h2>
           <p className="section-subtitle mx-auto mb-8">
-            Get the latest insights on school technology and education ERP delivered to your inbox.
+            Get the latest insights on school technology and education management delivered to your inbox.
           </p>
           <Link to="/contact" className="btn-gold">
             Subscribe to Updates <ArrowRight className="ml-2 w-4 h-4" />

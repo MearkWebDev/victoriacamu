@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 const sections = [
   {
     title: "1. Acceptance of Terms",
-    content: `By accessing and using the School ERP website operated by SRM Technologies Australia Pty Ltd, you agree to comply with and be bound by these Terms of Use. If you do not agree, please refrain from using this website.`,
+    content: `By accessing and using the Unified School Management System website operated by SRM Technologies Australia Pty Ltd, you agree to comply with and be bound by these Terms of Use. If you do not agree, please refrain from using this website.`,
   },
   {
     title: "2. Service Description",
-    content: `School ERP is a comprehensive school management platform. SRM Technologies Australia Pty Ltd is the authorised implementation and marketing partner for School ERP across Australia and New Zealand. This website provides information about our services and allows schools to register their interest.`,
+    content: `Unified School Management System is a comprehensive school management platform. SRM Technologies Australia Pty Ltd is the authorised implementation and marketing partner for Unified School Management System across Australia and New Zealand. This website provides information about our services and allows schools to register their interest.`,
   },
   {
     title: "3. Website Usage",
@@ -63,7 +63,7 @@ const Terms = () => {
       <PageHero
         label="Legal"
         title="Terms of Use"
-        description="Terms and conditions governing the use of the School ERP website."
+        description="Terms and conditions governing the use of the Unified School Management System website."
         image={heroTerms}
       />
 
@@ -115,10 +115,10 @@ const Terms = () => {
                     <p>
                       Email:{" "}
                       <a
-                        href="mailto:info@camuerp.com.au"
+                        href="mailto:info@srmtechnologies.com.au"
                         className="text-primary hover:underline"
                       >
-                        info@camuerp.com.au
+                        info@srmtechnologies.com.au
                       </a>
                     </p>
                   </div>

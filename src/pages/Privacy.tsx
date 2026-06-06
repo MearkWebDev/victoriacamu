@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const sections = [
   {
     title: "1. Introduction",
-    content: `SRM Technologies Australia Pty Ltd ("we", "us", "our") is committed to protecting the privacy of individuals who visit the School ERP website and use our services. This Privacy Policy explains how we collect, use, disclose, and safeguard your information in accordance with the Australian Privacy Act 1988 and the Australian Privacy Principles (APPs).`,
+    content: `SRM Technologies Australia Pty Ltd ("we", "us", "our") is committed to protecting the privacy of individuals who visit the Unified School Management System website and use our services. This Privacy Policy explains how we collect, use, disclose, and safeguard your information in accordance with the Australian Privacy Act 1988 and the Australian Privacy Principles (APPs).`,
   },
   {
     title: "2. Information We Collect",
@@ -22,7 +22,7 @@ const sections = [
     content: `Your personal information is used to:`,
     list: [
       "Respond to your enquiries and registration of interest",
-      "Provide tailored proposals for School ERP implementation",
+      "Provide tailored proposals for Unified School Management System implementation",
       "Communicate relevant updates about our services",
       "Improve our website and service offerings",
       "Comply with legal obligations",
@@ -114,10 +114,10 @@ const Privacy = () => {
                     <p>
                       Email:{" "}
                       <a
-                        href="mailto:info@camuerp.com.au"
+                        href="mailto:info@srmtechnologies.com.au"
                         className="text-primary hover:underline"
                       >
-                        info@camuerp.com.au
+                        info@srmtechnologies.com.au
                       </a>
                     </p>
                   </div>
