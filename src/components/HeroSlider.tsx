@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, Play, ChevronLeft, ChevronRight } from "lucide-react";
 import heroHome1 from "@/assets/hero-home-1.jpg";
-import heroHome2 from "@/assets/hero-home-2.jpg";
 import heroHome3 from "@/assets/hero-home-3.jpg";
+import heroCareerHubAsset from "@/assets/hero-career-hub.png.asset.json";
 
 const slides = [
   {
@@ -25,18 +25,19 @@ const slides = [
   },
   {
     label: "Career Hub",
-    heading: "Career Hub for Future-Ready Learning",
+    heading: "Prepare Students for Future Careers and Pathways",
     description:
-      "Connect students, schools, employers, and career pathways through one unified career education and work experience platform.",
+      "Connect students, educators, employers, and industry partners through a unified platform that supports career exploration, work-based learning, pathway planning, and future workforce readiness.",
     ctas: [
       { label: "Explore Career Hub", path: "/career-hub", primary: true },
+      { label: "Learn More", path: "/career-hub", primary: false },
     ],
     stats: [
       { num: "90%", label: "Time Saved on Attendance" },
       { num: "75%", label: "Faster Parent Comms" },
       { num: "68%", label: "Report Card Automation" },
     ],
-    image: heroHome2,
+    image: heroCareerHubAsset.url,
   },
   {
     label: "Trust & Coverage",
