@@ -1,18 +1,18 @@
-import srmColor from "@/assets/srm-logo-color.png";
+import srmColorAsset from "@/assets/srm-logo-color-new.png.asset.json";
 import srmWhite from "@/assets/srm-logo-white.png";
+
+const srmColor = srmColorAsset.url;
 
 interface CamuLogoProps {
   textColor?: "white" | "black";
   iconHeight?: string;
 }
 
-// White logo stays at its current size.
+// Colored logo matches the white logo dimensions exactly.
 const WHITE_LOGO_WIDTH = 200;
 const WHITE_LOGO_HEIGHT = 43;
-
-// Colored logo — larger for better visibility in sticky navbar.
-const COLOR_LOGO_WIDTH = 280;
-const COLOR_LOGO_HEIGHT = 60;
+const COLOR_LOGO_WIDTH = WHITE_LOGO_WIDTH;
+const COLOR_LOGO_HEIGHT = WHITE_LOGO_HEIGHT;
 
 const CamuLogo = ({ textColor = "white" }: CamuLogoProps) => {
   return (
