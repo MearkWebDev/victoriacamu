@@ -12,7 +12,7 @@ const articles = [
     readTime: "5 min read",
   },
   {
-    title: "Benefits of School ERP: A Complete Guide",
+    title: "Benefits of Unified School Management System: A Complete Guide",
     excerpt: "From reduced admin time to better parent engagement, explore the measurable benefits of implementing a school ERP system.",
     category: "Guides",
     readTime: "7 min read",

@@ -132,7 +132,7 @@ const Personas = () => {
       <PageHero
         label="Who Benefits"
         title="Built for Every Role in Your School"
-        description="School ERP speaks the language of every person in your school community."
+        description="Unified School Management System speaks the language of every person in your school community."
         image={heroPersonas}
       />
 
@@ -209,7 +209,7 @@ const Personas = () => {
                     <persona.icon className="w-5 h-5" style={{ color: persona.color }} />
                   </div>
                   <div>
-                    <p className="font-bold text-sm">School ERP for {persona.label}</p>
+                    <p className="font-bold text-sm">USMS for {persona.label}</p>
                     <p className="text-xs text-muted-foreground">Key capabilities</p>
                   </div>
                 </div>

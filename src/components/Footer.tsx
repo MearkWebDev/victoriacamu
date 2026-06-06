@@ -5,7 +5,7 @@ import CamuLogo from "@/components/CamuLogo";
 const quickLinks = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
-  { label: "School ERP", path: "/features" },
+  { label: "USMS", path: "/features" },
   { label: "Responsible AI", path: "/responsible-ai" },
   { label: "Career Hub", path: "/career-hub" },
 ];
@@ -30,7 +30,7 @@ const Footer = () => {
               <CamuLogo textColor="white" />
             </div>
             <p className="text-sm leading-relaxed opacity-60 mb-4">
-              School ERP and Career Hub solutions helping institutions, students, and educators create connected learning and career pathways.
+              Unified School Management System and Career Hub solutions helping institutions, students, and educators create connected learning and career pathways.
             </p>
             <p className="text-xs leading-relaxed opacity-40">
               Implemented & marketed by SRM Technologies Australia Pty Ltd.

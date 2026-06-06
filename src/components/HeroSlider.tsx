@@ -9,11 +9,11 @@ import heroHome3 from "@/assets/hero-home-3.jpg";
 const slides = [
   {
     label: "Platform Overview",
-    heading: "School ERP Software for Australia & New Zealand",
+    heading: "Unified School Management System Software for Australia & New Zealand",
     description:
-      "School ERP connects students, parents, teachers, and administrators into one powerful ecosystem — reducing overhead and amplifying what matters most: learning.",
+      "Unified School Management System connects students, parents, teachers, and administrators into one powerful ecosystem — reducing overhead and amplifying what matters most: learning.",
     ctas: [
-      { label: "Explore School ERP", path: "/features", primary: true },
+      { label: "Explore USMS", path: "/features", primary: true },
       { label: "Watch Demo", path: "#demo", primary: false },
     ],
     stats: [
@@ -40,7 +40,7 @@ const slides = [
   },
   {
     label: "Trust & Coverage",
-    heading: "Trusted School ERP Across ANZ",
+    heading: "Trusted Unified School Management System Across ANZ",
     description:
       "Available across VIC, NSW, QLD, SA, WA, TAS, ACT, NT & New Zealand. Victorian DE Panel SSP001 Approved — pre-approved procurement for government schools.",
     ctas: [

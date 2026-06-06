@@ -6,7 +6,8 @@ import {
   FileText, GraduationCap, Sparkles, AlertTriangle,
 } from "lucide-react";
 import LightPageHero from "@/components/LightPageHero";
-import heroAi from "@/assets/hero-responsible-ai.jpg";
+import heroAiAsset from "@/assets/hero-responsible-ai.png.asset.json";
+const heroAi = heroAiAsset.url;
 
 const principles = [
   { icon: UserCheck, title: "Human Oversight", desc: "Teachers remain in control. AI suggests, humans decide. Every consequential output is reviewed by a qualified educator." },
