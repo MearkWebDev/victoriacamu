@@ -85,7 +85,7 @@ const About = () => {
       <PageHero
         label="About Us"
         title="About Unified School Management System — Campus + You"
-        description="Our platform is where Campus meets You. A fully integrated school ERP platform connecting every stakeholder in one ecosystem."
+        description="Our platform is where Campus meets You. A fully integrated Unified School Management System connecting every stakeholder in one ecosystem."
         image={heroAbout}
       />
 

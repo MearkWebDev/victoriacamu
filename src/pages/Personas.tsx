@@ -237,7 +237,7 @@ const Personas = () => {
         <div className="max-w-2xl mx-auto">
           <h2 className="section-title mb-4">Find Your Role's Solution</h2>
           <p className="section-subtitle mx-auto mb-8">
-            See how ERP transforms operations for your specific role in the school.
+            See how USMS transforms operations for your specific role in the school.
           </p>
           <Link to="/contact" className="btn-gold">
             Register Interest <ArrowRight className="ml-2 w-4 h-4" />

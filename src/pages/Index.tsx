@@ -131,7 +131,7 @@ const Index = () => {
           <p className="section-label">Platform Capabilities</p>
           <h2 className="section-title">One Platform. Every Function.</h2>
           <p className="section-subtitle mb-12">
-            Unified School Management System replaces disconnected school systems with a single, integrated ERP platform.
+            Unified School Management System replaces disconnected school systems with a single, integrated USMS platform.
           </p>
 
           <motion.div

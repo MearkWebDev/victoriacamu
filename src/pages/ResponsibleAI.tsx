@@ -59,7 +59,7 @@ const ResponsibleAI = () => {
       <LightPageHero
         label="Responsible AI"
         title="Human-led, AI-assisted, Policy-compliant, Privacy-first"
-        description="ERP's approach to AI in schools is anchored in the Australian Framework for Generative AI in Schools — built compliant by design, never AI-first by default."
+        description="USMS's approach to AI in schools is anchored in the Australian Framework for Generative AI in Schools — built compliant by design, never AI-first by default."
         image={heroAi}
       />
 
@@ -70,7 +70,7 @@ const ResponsibleAI = () => {
           <h2 className="section-title mb-6">AI That Serves Education — On Australian Terms</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
             We treat AI in schools as a <strong className="text-foreground">policy-led architecture problem</strong> — not a technology showcase.
-            Every AI feature in ERP maps directly to the six mandatory principles of the Australian Framework for Generative AI in Schools.
+            Every AI feature in USMS maps directly to the six mandatory principles of the Australian Framework for Generative AI in Schools.
             If a feature can't be justified against a principle, it doesn't ship.
           </p>
         </div>
@@ -109,7 +109,7 @@ const ResponsibleAI = () => {
       <section className="section-padding">
         <div className="max-w-5xl mx-auto">
           <p className="section-label">Operating Rules</p>
-          <h2 className="section-title mb-10">How AI Behaves Inside ERP</h2>
+          <h2 className="section-title mb-10">How AI Behaves Inside USMS</h2>
           <div className="grid md:grid-cols-2 gap-4">
             {rules.map((rule, i) => (
               <motion.div
@@ -161,7 +161,7 @@ const ResponsibleAI = () => {
       <section className="section-padding">
         <div className="max-w-5xl mx-auto">
           <p className="section-label">Restricted AI Use</p>
-          <h2 className="section-title mb-10">What ERP Will Never Do</h2>
+          <h2 className="section-title mb-10">What USMS Will Never Do</h2>
           <div className="grid md:grid-cols-2 gap-4">
             {restricted.map((item, i) => (
               <motion.div

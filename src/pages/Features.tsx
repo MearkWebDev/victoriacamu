@@ -572,7 +572,7 @@ const Features = () => {
             viewport={{ once: true }}
           >
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-white mb-4">
-              Ready for a Smooth ERP Implementation?
+              Ready for a Smooth USMS Implementation?
             </h2>
             <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
               Explore implementation timelines, onboarding processes, and support designed for schools of every size.
