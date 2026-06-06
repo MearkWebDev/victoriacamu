@@ -1,4 +1,4 @@
-import srmColorAsset from "@/assets/srm-logo-color-new.png.asset.json";
+import srmColorAsset from "@/assets/srm-logo-color-v2.png.asset.json";
 import srmWhite from "@/assets/srm-logo-white.png";
 
 const srmColor = srmColorAsset.url;
