@@ -11,8 +11,8 @@ const WHITE_LOGO_WIDTH = 200;
 const WHITE_LOGO_HEIGHT = 43;
 
 // Colored logo — larger for better visibility in sticky navbar.
-const COLOR_LOGO_WIDTH = 405;
-const COLOR_LOGO_HEIGHT = 87;
+const COLOR_LOGO_WIDTH = 280;
+const COLOR_LOGO_HEIGHT = 60;
 
 const CamuLogo = ({ textColor = "white" }: CamuLogoProps) => {
   return (
