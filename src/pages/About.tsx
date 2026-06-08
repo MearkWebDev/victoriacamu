@@ -7,8 +7,7 @@ import srmLogo from "@/assets/partners/srm.png";
 import camuLogo from "@/assets/partners/camu.jpeg";
 import crystalDeltaLogo from "@/assets/partners/crystal_delta.png";
 import genixLogo from "@/assets/partners/genix.png";
-
-const merittoLogo = "/assets/meritto-logo.png";
+import merittoLogo from "@/assets/meritto-logo.png";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
