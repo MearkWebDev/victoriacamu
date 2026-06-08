@@ -1,6 +1,5 @@
 import srmWhite from "@/assets/srm-logo-white.png";
-
-const srmColor = "/assets/srmtech-logo.png";
+import srmColor from "@/assets/srmtech-colored-logo.png";
 
 interface CamuLogoProps {
   textColor?: "white" | "black";
