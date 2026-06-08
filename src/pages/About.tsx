@@ -5,11 +5,10 @@ import PageHero from "@/components/PageHero";
 import heroAbout from "@/assets/hero-about.jpg";
 import srmLogo from "@/assets/partners/srm.png";
 import camuLogo from "@/assets/partners/camu.jpeg";
-import merittoLogoAsset from "@/assets/partners/meritto.png.asset.json";
 import crystalDeltaLogo from "@/assets/partners/crystal_delta.png";
 import genixLogo from "@/assets/partners/genix.png";
 
-const merittoLogo = merittoLogoAsset.url;
+const merittoLogo = "/assets/meritto-logo.png";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -51,11 +50,8 @@ const corePartners = [
       "Meritto is a leading education-focused CRM and admissions automation platform helping institutions streamline student recruitment, admissions engagement, lead nurturing, enquiry management, application workflows, and enrolment conversion through data-driven automation and communication tools.",
     highlights: [
       "Student Recruitment Automation",
-      "Admissions Workflow Management",
-      "1200+ Institutions",
-      "Omnichannel Communication",
-      "Application Conversion Analytics",
       "Higher Ed & K-12 Expertise",
+      "1200+ Institutions",
     ],
   },
 ];
