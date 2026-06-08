@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Target, Eye, CheckCircle } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import heroAbout from "@/assets/hero-about.jpg";
-import srmLogo from "@/assets/partners/srm.png";
+import srmLogo from "@/assets/srmtech-colored-logo.png";
 import camuLogo from "@/assets/partners/camu.jpeg";
 import crystalDeltaLogo from "@/assets/partners/crystal_delta.png";
 import genixLogo from "@/assets/partners/genix.png";
