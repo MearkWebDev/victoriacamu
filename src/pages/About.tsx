@@ -58,14 +58,14 @@ const corePartners = [
 const localPartners = [
   {
     name: "Crystal Delta",
-    badge: "Engineering Partner",
+    badge: "Local Partner",
     logo: crystalDeltaLogo,
     description:
-      "Crystal Delta is an Australian technology engineering company specialising in mission-critical systems for highly regulated industries. Since 2014, they have delivered production-grade solutions across banking, healthcare, energy, financial markets, and government environments. Their expertise spans AI applications, data infrastructure, enterprise platforms, and operational systems required for secure, scalable, and compliant digital transformation. Crystal Delta provides advanced engineering expertise and enterprise-grade infrastructure support to deliver secure, scalable, and future-ready Unified School Management System solutions.",
+      "Crystal Delta is an Australian technology engineering company specializing in mission-critical systems for highly regulated industries. With expertise in AI, data infrastructure, enterprise platforms, and secure digital transformation, Crystal Delta helps organizations build scalable, reliable, and future-ready technology solutions. As a local partner, they provide engineering and implementation expertise to support the successful delivery of Unified School Management System (USMS) solutions across Australia.",
     highlights: [
-      "Expertise in Regulated Industries",
-      "Production-Grade AI & Data Engineering",
-      "High-Availability and Zero-Downtime Architecture",
+      "AI & Data Engineering",
+      "Secure Digital Platforms",
+      "Local Implementation Expertise",
     ],
   },
   {
