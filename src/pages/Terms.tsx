@@ -115,10 +115,10 @@ const Terms = () => {
                     <p>
                       Email:{" "}
                       <a
-                        href="mailto:info@srmtechnologies.com.au"
+                        href="mailto:info@srmtech.com.au"
                         className="text-primary hover:underline"
                       >
-                        info@srmtechnologies.com.au
+                        info@srmtech.com.au
                       </a>
                     </p>
                   </div>
