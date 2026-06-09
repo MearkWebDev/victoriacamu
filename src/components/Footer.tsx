@@ -97,9 +97,9 @@ const Footer = () => {
                 </div>
               </li>
               <li>
-                <a href="mailto:info@srmtechnologies.com.au" className="flex items-center gap-3 hover:opacity-100 hover:text-[#f1b000] transition-all">
+                <a href="mailto:info@srmtech.com.au" className="flex items-center gap-3 hover:opacity-100 hover:text-[#f1b000] transition-all">
                   <Mail className="w-4 h-4 flex-shrink-0 opacity-80" />
-                  info@srmtechnologies.com.au
+                  info@srmtech.com.au
                 </a>
               </li>
               <li>

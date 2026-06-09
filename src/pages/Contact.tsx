@@ -151,8 +151,8 @@ const Contact = () => {
                   <Mail className="w-6 h-6 text-secondary" />
                 </div>
                 <h3 className="font-serif text-lg font-bold mb-2">Email</h3>
-                <a href="mailto:info@srmtechnologies.com.au" className="text-sm text-primary hover:underline">
-                  info@srmtechnologies.com.au
+                <a href="mailto:info@srmtech.com.au" className="text-sm text-primary hover:underline">
+                  info@srmtech.com.au
                 </a>
               </div>
               <div className="card-premium">
