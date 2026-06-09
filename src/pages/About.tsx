@@ -58,11 +58,15 @@ const corePartners = [
 const localPartners = [
   {
     name: "Crystal Delta",
-    badge: "Local Partner",
+    badge: "Engineering Partner",
     logo: crystalDeltaLogo,
     description:
-      "Crystal Delta is a global technology and education solutions company headquartered in Melbourne, Australia, delivering innovative and impactful technology solutions since 2015. With 150+ professionals across five offices in Australia, the United States, and India, Crystal Delta serves 60+ clients through its SoaringEd education portfolio — providing value-driven, secure, and scalable technology solutions.",
-    highlights: ["Melbourne HQ", "150+ Professionals", "60+ Clients"],
+      "Crystal Delta is an Australian technology engineering company specialising in mission-critical systems for highly regulated industries. Since 2014, they have delivered production-grade solutions across banking, healthcare, energy, financial markets, and government environments. Their expertise spans AI applications, data infrastructure, enterprise platforms, and operational systems required for secure, scalable, and compliant digital transformation. Crystal Delta provides advanced engineering expertise and enterprise-grade infrastructure support to deliver secure, scalable, and future-ready Unified School Management System solutions.",
+    highlights: [
+      "Expertise in Regulated Industries",
+      "Production-Grade AI & Data Engineering",
+      "High-Availability and Zero-Downtime Architecture",
+    ],
   },
   {
     name: "Genix Ventures",
